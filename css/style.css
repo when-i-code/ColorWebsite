@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    position: relative;
+}
+header {
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    margin-left: 200px;
+    justify-content: flex-start;
+    width: 50px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 140px;
+}
+li {
+    font-weight: bold;
+    color: grey;
+    display: inline-block;
+    margin-right: 60px;
+}
+span {
+    font-size: larger;
+}
+div.cta {
+    height: 500px;
+    background-color: #825EC9;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: normal;
+    margin: 50px auto 30px auto;
+}
+h2 {
+    margin-top: 40px;
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.cta {
+    margin: 3px auto;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    float: left;
+}
+.cta a {
+    height: 50px;
+    width: 190px;
+    color: white;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bolder;
+    background-color: #fa683c;
+    border-radius: 50px;
+    margin: 40px auto;
+}
+.cta a:hover {
+    background-color: #6113e8;
+    transition: .3s ease-in-out;
+}
+div.boxes {
+    width: 80%;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.box1, .box2, .box3 {
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    margin: -150px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 50px -20px #888888;
+}
+img.img_box {
+    margin: 40px auto 0 auto;
+    height: 80px;
+    width: auto;
+}
+p.boxes_text {
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #5d5b61;
+    line-height: 22px;
+    text-align: center;
+
+}
+.footer a {
+    color: white;
+}
+ footer {
+     background-color: black;
+     height: 50px;
+     bottom: 0;
+     position: fixed;
+     left: 0;
+     display: flex;
+     width: 100%;
+     color: white;
+     text-align: center;
+ }
+ .footer {
+     margin: 13px auto;
+     align-items: center;
+     font-size: smaller;
+     color: white;
+ }
